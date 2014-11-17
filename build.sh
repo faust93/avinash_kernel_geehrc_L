@@ -4,7 +4,7 @@ make clean
 make mrproper
 export ARCH=arm
 export SUBARCH=arm
-version="2"
+version="3"
 make avinash_defconfig
 
 if [ $# -gt 0 ]; then
