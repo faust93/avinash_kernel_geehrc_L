@@ -26,6 +26,10 @@
 
 #include <ram_console.h>
 
+#ifdef CONFIG_LCD_KCAL
+int g_kcal_min = 35;
+#endif
+
 #ifdef CONFIG_KEXEC_HARDBOOT
 #include <linux/memblock.h>
 #endif
